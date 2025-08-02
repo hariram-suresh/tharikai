@@ -27,7 +27,7 @@ const App = () => (
           {/* Weaver routes */}
           <Route path="/weaver/production" element={<PlaceholderPage title="Production Management" description="Track your saree production progress and updates" />} />
           <Route path="/weaver/earnings" element={<PlaceholderPage title="Earnings & Analytics" description="View your earnings, production metrics, and performance insights" />} />
-          <Route path="/weaver/schemes" element={<PlaceholderPage title="Government Schemes" description="Browse and apply for government schemes and benefits" />} />
+          <Route path="/weaver/schemes" element={<WeaverSchemes />} />
           
           {/* Buyer routes */}
           <Route path="/buyer/orders" element={<PlaceholderPage title="My Orders" description="Track your saree orders and purchase history" />} />
